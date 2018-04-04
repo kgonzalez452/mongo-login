@@ -1,0 +1,315 @@
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #8CD790;
+    background-image: url('https://bprior.org/blog/a-love-that-is-beyond-body-and-mind-but-not-beyond-embodiment');
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  a:hover {
+    color: rgb(0, 179, 255);
+  }
+  
+  input {
+    width: 300px;
+    padding: 15px 20px;
+    font-size: 18px;
+    margin: 10px;
+  }
+  
+  p {
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  .wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .navbar {
+    position: fixed;
+    width: 100%;
+    /* background: linear-gradient(to bottom, rgba(0,0,0,0.40),  rgba(0,0,0,0)); */
+    border: none;
+  }
+  
+  .navbar-link {
+    padding: 0px 15px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+  
+  .navbar-links {
+    padding: 15px 15px;
+    display: inline-block;
+    /* float: right; */
+  }
+  
+  .icon-small {
+    font-size: 20px;
+  }
+  
+  .title {
+    font-size: 150px;
+    color: #fff;
+  }
+  
+  .link {
+    padding: 0px 10px;
+    color: #fff;
+  }
+  
+  .btn {
+    color: #fff;
+    border: solid 1px #fff;
+    font-size: 30px;
+    padding: 15px 20px;
+    cursor: pointer;
+  }
+  
+  .logo {
+    margin: 15px;
+    height: 50px;
+    width: 50px;
+    background-color: orangered;
+    border-radius: 100%;
+  }
+  
+  .form-btn {
+    width: 300px;
+    margin: 10px;
+    padding: 15px;
+    font-size: 20px;
+    background-color: rgba(0,0,0,0);
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  .form-btn:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: rgb(75, 228, 255);
+    border-color: rgb(75, 228, 255);
+  }
+  
+  .btn:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: rgb(75, 228, 255);
+    border-color: rgb(75, 228, 255);
+  }
+  
+  .password-reset-screen {
+    background: url('/assets/images/flame.jpg') no-repeat;
+    background-size: cover;
+    background-color: #8CD790;
+
+
+  }
+  
+  .mongo-password-recovery-screen {
+    background: url('/assets/images/flame.jpg') no-repeat;
+    background-size: cover;
+    background-color: #8CD790;
+
+  }
+  
+  .mongo-home-screen {
+    background: url('/assets/images/flame.jpg') no-repeat;
+    background-size: cover;
+    background-color: #8CD790;
+
+  }
+  
+  .profile-screen {
+    background: url('/assets/images/flame.jpg') no-repeat;
+    background-size: cover;
+    background-color: #8CD790;
+
+  }
+  
+  .login-screen {
+    background: url('/assets/images/flame.jpg') no-repeat;
+    background-size: cover;
+    background-color: #8CD790;
+
+  }
+  
+  .signup-screen {
+    background: url('/assets/images/flame.jpg') no-repeat;
+    background-size: cover;
+    background-color: #8CD790;
+
+  }
+  
+  .not-found-screen {
+    background: url('/assets/images/flame.jpg') no-repeat;
+    background-size: cover;
+    background-color: #8CD790;
+
+  }
+
+
+  /* ======================================================== */
+  /* ==============      TODO LIST CSS       ================ */
+  /* ======================================================== */
+
+.home-screen {
+  background-color: #7d51c4;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.todos-screen {
+  background-color: #7d51c4;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.not-found-screen {
+  background-color: #7d51c4;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 200px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.input-container {
+  height: 60px;
+  display: flex;
+  margin: 40px;
+  align-items: center;
+  width: 500px;
+}
+
+.todo-input {
+  flex-grow: 1;
+  font-size: 20px;
+  padding: 0px 10px;
+  /* border: 1px solid black; */
+  height: 60px;
+  border-radius: 20px;
+  outline: none;
+}
+
+.icon-lg {
+  font-size: 60px;
+  margin: 10px;
+}
+
+.btn-container {
+  flex: 0 0 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.btn-container:hover {
+  color: #000;
+  cursor: pointer;
+}
+
+.btn {
+  border: 2px solid #fff;
+  padding: 20px 50px;
+  border-radius: 50px;
+  font-size: 30px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #000;
+  border: 2px solid #000;
+}
+
+.todos-container {
+  width: 500px;
+  overflow-y: auto;
+  padding: 0px 20px;
+  overflow-x: hidden;
+  display: inline;
+}
+
+.todo {
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  font-size: 16px;
+  text-align: left;
+  width: 100%;
+  background-color: rgba(116, 45, 182, 0.562);
+  margin: 20px 0px;
+}
+
+.todo-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 30%;
+}
+
+.todo-container:hover .remove{
+  right: 0;
+}
+
+.remove {
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: -60px;
+  height: 100%;
+  width: 60px;
+  font-size: 25px;
+  transition: right 200ms;
+  cursor: pointer; 
+}
+
+.complete{
+  font-style: white;
+}
+
+/* Scroll Bar */
+.cool-scroll-bar-17::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 10px; }
+
+.cool-scroll-bar-17::-webkit-scrollbar {
+  width: 6px;
+  background-color: rgba(0, 0, 0, 0); }
+
+.cool-scroll-bar-17::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 10px; }
